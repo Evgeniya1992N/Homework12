@@ -1,8 +1,8 @@
 package pro.sky.java.course1.lesson12;
 
 public class Author {
-    String nameFirst;
-    String nameSecond;
+    private String nameFirst;
+    private String nameSecond;
 
     public Author(String nameFirst, String nameSecond) {
         this.nameFirst = nameFirst;

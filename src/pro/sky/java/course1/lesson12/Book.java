@@ -1,31 +1,31 @@
 package pro.sky.java.course1.lesson12;
 
 public class Book {
-    private String bookName;
-    private Author authorName;
-    int publishingYear;
+    private String name;
+    private Author author;
+    private int publishingYear;
 
-    public Book(String bookName, Author authorName, int publishingYear ) {
-        this.bookName = bookName;
-        this.authorName = authorName;
+    public Book(String name, Author author, int publishingYear ) {
+        this.name = name;
+        this.author = author;
         this.publishingYear = publishingYear;
     }
 
     public String getName() {
-        return this.bookName;
+        return this.name;
     }
-    public Author getAuthorName() {
-        return this.authorName;
+    public Author getAuthor() {
+        return this.author;
     }
     public int getPublishingYear() {
         return this.publishingYear;
     }
 
     public void setName(String bookName) {
-        this.bookName = bookName;
+        this.name = bookName;
     }
-    public void setAuthorName(Author authorName) {
-       this.authorName = authorName;
+    public void setAuthor(Author author) {
+       this.author = author;
     }
     public void setPublishingYear(int publishingYear) {
         this.publishingYear = publishingYear;
