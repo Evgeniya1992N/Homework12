@@ -18,7 +18,7 @@ public class Homework12 {
             System.out.println("different");
         }
 
-        //Author fedorDostoevsiy = new Author("Федор", "Достоевский");
+        Author fedorDostoevsiy = new Author("Федор", "Достоевский");
         Book crimeAndPunishment = new Book("Преступление и наказание", fedorDostoevsiy, 1866);
         Book crimeAndPunishment2 = new Book("Преступление и наказание", fedorDostoevsiy, 1866);
         //  System.out.println("crimeAndPunishment = " + crimeAndPunishment.getName());
