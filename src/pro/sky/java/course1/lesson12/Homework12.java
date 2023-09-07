@@ -4,7 +4,7 @@ public class Homework12 {
     public static void main(String[] args) {
         Author levTolstoy = new Author("Лев", "Толстой");
         Author levTolstoy2 = new Author("Лев", "Толстой");
-        Book warAndPeace = new Book("Война и Мир", levTolstoy, 1867);
+        // Book warAndPeace = new Book("Война и Мир", levTolstoy, 1867);
        // System.out.println("warAndPeace = " + warAndPeace.getName());
         //Task 1 HW 13 toString():
         System.out.println("levTolstoy = " + levTolstoy);
@@ -18,7 +18,7 @@ public class Homework12 {
             System.out.println("different");
         }
 
-        Author fedorDostoevsiy = new Author("Федор", "Достоевский");
+        //Author fedorDostoevsiy = new Author("Федор", "Достоевский");
         Book crimeAndPunishment = new Book("Преступление и наказание", fedorDostoevsiy, 1866);
         Book crimeAndPunishment2 = new Book("Преступление и наказание", fedorDostoevsiy, 1866);
         //  System.out.println("crimeAndPunishment = " + crimeAndPunishment.getName());
